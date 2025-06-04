@@ -1,55 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ramadan Osman | Human Factors Engineer</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ramadan Osman | Human Factors Engineer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Ramadan Osman</h1>
-        <p>Human Factors Engineer | AI Enthusiast | UX Advocate</p>
-    </header>
+  <header class="main-header">
+    <nav>
+      <ul>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Ramadan Osman</h1>
+      <p>Human Factors Engineer | AI Enthusiast | UX Advocate</p>
+    </div>
+  </header>
 
-    <section id="education">
-        <h2>Education</h2>
+  <section id="education" class="scroll-fade">
+    <h2>Education</h2>
+    <p>
+      I earned my degree in Human Factors Engineering from Arizona State University (ASU),
+      where I focused on designing intuitive and safe systems. My studies included usability
+      testing, cognitive ergonomics, and human-AI interaction.
+    </p>
+  </section>
+
+  <section id="projects" class="scroll-fade">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="https://cdn.pixabay.com/photo/2025/05/11/22/31/man-9594075_1280.jpg" alt="AI Dashboard Preview" />
+      <div class="project-info">
+        <h3><a href="https://github.com/example/ai-dashboard" target="_blank">AI Decision Support Dashboard</a></h3>
         <p>
-            I earned my degree in Human Factors Engineering from Arizona State University (ASU), where I focused on designing intuitive and safe systems. My studies included usability testing, cognitive ergonomics, and human-AI interaction.
+          A dynamic dashboard that adapts explanations based on user expertise and cognitive
+          load. Designed with usability heuristics and integrated with real-time AI model
+          outputs.
         </p>
-    </section>
+      </div>
+    </div>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <img src="images/ai-dashboard.png" alt="AI Dashboard Preview">
-            <div class="project-info">
-                <h3><a href="https://github.com/example/ai-dashboard" target="_blank">AI Decision Support Dashboard</a></h3>
-                <p>A dynamic dashboard that adapts explanations based on user expertise and cognitive load. Designed with usability heuristics and integrated with real-time AI model outputs.</p>
-            </div>
-        </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/180" alt="HCI Visualizer Preview" />
+      <div class="project-info">
+        <h3><a href="https://github.com/example/hci-visualizer" target="_blank">HCI Interaction Visualizer</a></h3>
+        <p>
+          Developed a tool that visualizes user interaction patterns across multiple interfaces.
+          Employed cognitive walkthrough techniques and temporal data clustering.
+        </p>
+      </div>
+    </div>
 
-        <div class="project">
-            <img src="images/hci-visualizer.png" alt="HCI Visualizer Preview">
-            <div class="project-info">
-                <h3><a href="https://github.com/example/hci-visualizer" target="_blank">HCI Interaction Visualizer</a></h3>
-                <p>Developed a tool that visualizes user interaction patterns across multiple interfaces. Employed cognitive walkthrough techniques and temporal data clustering.</p>
-            </div>
-        </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/180" alt="UX Analyzer Preview" />
+      <div class="project-info">
+        <h3><a href="https://github.com/example/ux-analyzer" target="_blank">UX Analyzer</a></h3>
+        <p>
+          An AI-powered heuristic evaluator for web interfaces, offering actionable feedback
+          using GPT APIs and Nielsen's principles.
+        </p>
+      </div>
+    </div>
+  </section>
 
-        <div class="project">
-            <img src="images/ux-analyzer.png" alt="UX Analyzer Preview">
-            <div class="project-info">
-                <h3><a href="https://github.com/example/ux-analyzer" target="_blank">UX Analyzer</a></h3>
-                <p>An AI-powered heuristic evaluator for web interfaces, offering actionable feedback using GPT APIs and Nielsen's principles.</p>
-            </div>
-        </div>
-    </section>
+  <section id="articles" class="scroll-fade">
+    <h2>Articles</h2>
 
-    <footer>
-        <p>Connect with me on <a href="https://linkedin.com/in/ramadanosman" target="_blank">LinkedIn</a></p>
-    </footer>
+    <article>
+      <h3>The Role of Explainability in AI</h3>
+      <p>
+        Explainable AI (XAI) is critical in building trust with users. Systems that adapt
+        explanations to a user’s cognitive load improve decision-making and accountability.
+      </p>
+    </article>
 
-    <script src="script.js"></script>
+    <article>
+      <h3>Human-Centered AI Design Principles</h3>
+      <p>
+        Incorporating HFE principles into AI system design ensures alignment with human
+        strengths and mitigates the risk of misuse or error.
+      </p>
+    </article>
+
+    <article>
+      <h3>How AI is Changing Usability Testing</h3>
+      <p>
+        AI-powered tools can now simulate user behavior, flag usability issues, and even
+        generate recommendations—streamlining traditional UX workflows.
+      </p>
+    </article>
+  </section>
+
+  <footer id="contact">
+    <p>Connect with me on <a href="https://linkedin.com/in/ramadanosman" target="_blank">LinkedIn</a></p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
